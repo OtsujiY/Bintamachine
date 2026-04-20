@@ -27,7 +27,7 @@ const binta = () => {
         isHandUp = Boolean(-isHandUp + 1);
 
         $bintaHand.style.left = handLeft[Number(isHandUp)];
-        $bintaHand.src = "./images/IMG_" + ( 4034 + -isHandUp ) + ".PNG";
+        $bintaHand.src = "./images/IMG_403" + ( 4 + -isHandUp ) + ".PNG";
     }, 70);
 };
 
